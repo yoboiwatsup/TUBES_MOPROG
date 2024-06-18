@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AP STORE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/Oxanium"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- List of Products -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Mobile Legends -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@drawable/product_background"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/productImage1"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:src="@drawable/ml"
+                    android:scaleType="centerCrop"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp">
+
+                    <TextView
+                        android:id="@+id/productName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Legends: Bang Bang"
+                        android:textColor="@color/white"
+                        android:textSize="17.71sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/productDescription1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description of product 1"
+                        android:textSize="14sp"/>
+
+                    <Button
+                        android:id="@+id/btnTopUp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Top Up"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Tambahkan lebih banyak item produk dengan pola yang sama -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

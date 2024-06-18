@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "794541191755",
+    "project_id": "top-up-mobprog",
+    "storage_bucket": "top-up-mobprog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794541191755:android:a0a85d415ba0aef17a53ce",
+        "android_client_info": {
+          "package_name": "com.example.tubesmoprog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuaEhBB_9BP0fbrovTGUP4dFIUBiX0P9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

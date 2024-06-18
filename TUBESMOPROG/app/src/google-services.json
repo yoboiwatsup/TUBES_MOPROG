@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "794541191755",
+    "firebase_url": "https://top-up-mobprog-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "top-up-mobprog",
+    "storage_bucket": "top-up-mobprog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794541191755:android:a0a85d415ba0aef17a53ce",
+        "android_client_info": {
+          "package_name": "com.example.tubesmoprog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794541191755-mq6iafbbordsuv8iaumgmaf6t3ctp3cg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tubesmoprog",
+            "certificate_hash": "59566b7d9cfcc94642bf95ec677b69530990e5d1"
+          }
+        },
+        {
+          "client_id": "794541191755-t81jnc1vl9g9m98lfkq2lg58jqhko62u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuaEhBB_9BP0fbrovTGUP4dFIUBiX0P9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794541191755-t81jnc1vl9g9m98lfkq2lg58jqhko62u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

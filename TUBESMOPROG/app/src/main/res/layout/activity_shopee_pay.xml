@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bckground"
+    tools:context=".ShopeePay">
+
+  <TextView
+      android:id="@+id/textViewUserPhoneNumber"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Nomor Tujuan :"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:textColor="@android:color/white"
+      android:paddingTop="10dp" />
+
+  <TextView
+      android:id="@+id/textViewSelectedPulsa"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Pulsa yang dipilih :"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:textColor="@android:color/white"
+      android:paddingTop="10dp" />
+
+  <TextView
+      android:id="@+id/textViewPaymentMethod"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Metode Pembelian : "
+      android:textStyle="bold"
+      android:textColor="@android:color/white"
+      android:textSize="16sp"
+      android:paddingTop="10dp" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Masukkan Nomor ShopeePay Anda"
+      android:textStyle="bold"
+      android:textColor="@android:color/white"
+      android:textSize="16sp"
+      android:layout_marginTop="30dp"
+      android:paddingTop="10dp" />
+
+  <EditText
+      android:id="@+id/editTextShopeePayNumber"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Masukkan nomor ShopeePay"
+      android:background="@drawable/edit_text_background"
+      android:inputType="number"
+      android:layout_marginTop="10dp"
+      android:paddingTop="10dp" />
+
+  <Button
+      android:id="@+id/buttonPay"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Bayar"
+      android:textStyle="bold"
+      style="@style/GradientButton"
+      android:textColor="@android:color/white"
+      android:textSize="18sp"
+      android:layout_marginTop="16dp" />
+</LinearLayout>
